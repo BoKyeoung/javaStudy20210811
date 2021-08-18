@@ -9,13 +9,15 @@ public class Quiz2753 {
 		// 해당년도 4의 배수이고 100의 배수는 아니거나 400의 배수이다.
 		
 		int year = in.nextInt();
+		
 		int result;
+		
 		if(year%4 == 0 && year%100 !=0 || year%400 == 0) { // year을 4로 나눴을때 0과 같냐는 질문
 			result = 1;
-			System.out.println("운년입니다.");
+			System.out.println("운년입니다.!!");
 		}else {
 			result = 0;
-			System.out.println("윤년이 아닙니다.");
+			System.out.println("윤년이 아닙니다.!!");
 		}
 
 	}
