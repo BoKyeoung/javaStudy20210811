@@ -13,10 +13,8 @@ public class Quiz2753 {
 		int result;
 		
 		if(year%4 == 0 && year%100 !=0 || year%400 == 0) { // year을 4로 나눴을때 0과 같냐는 질문
-			result = 1;
 			System.out.println("운년입니다.!!");
 		}else {
-			result = 0;
 			System.out.println("윤년이 아닙니다.!!");
 		}
 
