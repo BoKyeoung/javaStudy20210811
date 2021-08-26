@@ -1,7 +1,29 @@
 package a9_메소드;
 
-public class Quiz {
+import java.util.Scanner;
 
+public class Quiz {
+	Scanner in = new Scanner(System.in);
+	String selecter;
+
+	
+//	public void ProcStart(String selecter, int star) {
+//		this.selecter = selecter = in.nextLine();
+//		this.star = star = in.nextInt();
+//	} // end of procStart
+	
+	public Quiz(int star) {
+		System.out.println();
+		for (int i = 0; i < star; i++) {
+			for (int j = 0; j < i + 1; j++) {
+				System.out.print("★");
+			}
+			System.out.println();
+		} // end of for - i
+	} // end of quiz
+	
+			
+	
 	/*
 	 * [별찍기 프로그램]
 	 * 1. 문제1
@@ -10,22 +32,21 @@ public class Quiz {
 	 * 4. 문제4
 	 * 5. 문제5
 	 * q. 프로그램 종료
-	 * 명령을 입력하세요 : ex) 1
+	 * 명령을 입력하세요: 1
 	 * 
-	 * 출력 할 별의 개수를 입력하세요 : 10
-	 * --> 10개 출력 ★ 함수로 입력
+	 * 출력할 별의 개수를 입력하세요: 10
 	 * 
-	 * void procStart(명령 번호, 개수){
+	 * void procStart(명령 번호, 10){
 	 * 		if(1번이면){
-	 * 			void quiz1(별의 개수입력받기){
+	 * 			void quiz1(별의 개수){
 	 * 				for()
-	 * 			} // for문이 끝나고나서 다시 입력(while)
-	 * 		}else if(2번이면){
-	 * 			
+	 * 			}
+	 * 		} else if(2번이면){
+	 * 
 	 * 		}
 	 * }
 	 * 
-	 * 	  
-	 * */
-	// 첫번째 입력 : 
-}
+	 */
+	
+	
+} // end of class
