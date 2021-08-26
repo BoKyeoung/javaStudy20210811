@@ -11,6 +11,11 @@ public class Quiz {
 //		this.selecter = selecter = in.nextLine();
 //		this.star = star = in.nextInt();
 //	} // end of procStart
+
+//		public void showInfo() {
+//		System.out.println("[★별찍기★]");
+//		System.out.print("출력할 별의 개수를 입력하세요. : ");
+//	}
 	
 	public Quiz(int star) {
 		System.out.println();

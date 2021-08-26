@@ -16,10 +16,12 @@ public class QuizTest {
 			System.out.println("4. 문제4");
 			System.out.println("5. 문제5");
 			System.out.println("q. 프로그램 종료");
+			// 종료가 되지않는다....또르륵...
 			System.out.println();
 			System.out.print("명령을 입력하세요 : ");
-			System.out.println();
 			String selecter = in.nextLine();
+			
+			System.out.println();
 			
 			System.out.println("[★별찍기★]");
 			System.out.print("출력할 별의 개수를 입력하세요. : ");
@@ -27,6 +29,7 @@ public class QuizTest {
 			int star = in.nextInt();
 			
 			if (selecter.equals("1")) {
+				
 				Quiz quiz = new Quiz(star);
 				mainFlag = false;
 			} // end of if - 1
@@ -50,9 +53,12 @@ public class QuizTest {
 				Quiz quiz = new Quiz(star);
 				mainFlag = false;
 			} // end of else if - 5
+			
 			else if (selecter.equals("q")) {
 				System.out.println("프로그램 종료중...");
+				mainFlag = false;
 				break;
+				
 			} else {
 				System.out.println("잘못 된 입력입니다.");
 			}

@@ -88,7 +88,7 @@ public class QuizNogada {
 				System.out.println("프로그램 종료중...");
 				break;
 			} else {
-				System.out.println("잘못 된 입력입니다.");
+				System.out.println("잘못 된 입력입니다. 다시 입력해주세요.");
 			}
 		} // end of while <-- 모든 프로그램은 while안에서 돈다 ★
 
